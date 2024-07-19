@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+.span {
+  font-family: "Miama", sans-serif;
+  font-size: 78px;
+  font-weight: 400;
+}
+* {
+  margin: 0;
+}
+body {
+  background: black;
+}
+/* styles nav bar here */
+.bg-light {
+  background: linear-gradient(180deg, #171717, #292929, #171717);
+}
+.nav-bar {
+  max-width: 85%;
+  /* height: 46px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid lightgreen;
+}
+.nav-title {
+  color: rgb(230, 83, 60);
+  font-size: 36px;
+  font-weight: 800;
+  margin: 60px;
+  margin-left: 0;
+}
+.nav-links {
+  width: 465px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-links > a {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-decoration: none;
+}
+.btn-primary {
+  width: 92px;
+  height: 38px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+/* styles banner section here */
+.banner {
+  max-width: 85%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid greenyellow;
+}
+.banner-content {
+  width: 520px;
+  height: 440px;
+  border: 1px solid greenyellow;
+}
+.banner-image {
+  width: 370px;
+  height: 580px;
+  border: 1px solid greenyellow;
+}
+.banner-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 105%;
+  margin-bottom: 28px;
+}
+.banner-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 42px;
+}
+.btn {
+  width: 463px;
+}
+.btn > .btn-primary {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.btn-secondary {
+  width: 224px;
+  height: 54px;
+  background: none;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+.banner-image > img {
+  position: relative;
+}
+.card-one {
+  width: 193px;
+  height: 98px;
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  margin-top: -457px;
+  margin-left: 240px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.card-one h3 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 24px;
+  margin-top: 17px;
+}
+.card-one p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  margin-left: 24px;
+}
+.card-two {
+  width: 193px;
+  height: 98px;
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  margin-top: -170px;
+  margin-left: -100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e6533c;
+}
+.card-two h3 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 900;
+}
+.card-two p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+}
+/* styles habits section here */
+.habits {
+  max-width: 85%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border: 1px solid greenyellow;
+}
+.habits-text {
+  width: 672px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  border: 1px solid greenyellow;
+}
+.habits-text h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.habits-text p {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  opacity: 50%;
+}
+.habits-content {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid greenyellow;
+}
+.content-items {
+  width: 232px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid greenyellow;
+}
+.content-items img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.content-items h4 {
+  font-size: 18px;
+  font-weight: 600px;
+  color: #ffffff;
+  margin-top: 25px;
+}
+.content-items p {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  opacity: 50%;
+}
+/* styles run section here */
+.run {
+  max-width: 85%;
+  border: 1px solid greenyellow;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  height: 372px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+}
+.run-text {
+  width: 445px;
+  height: 290px;
+  margin-left: 55px;
+  border: 1px solid greenyellow;
+}
+.run-text h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.run-text p {
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 50%;
+  margin-bottom: 48px;
+}
+.run-text button {
+  width: 225px;
+  height: 55px;
+  border-radius: 42px;
+  background-color: #e6533c;
+  font-size: 18px;
+  font-weight: 600px;
+  color: #ffffff;
+}
+.run-image {
+  width: 368px;
+  height: 312px;
+  margin-right: 32px;
+}
+.run-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+/* styles calculator section here */
+.calculator {
+  max-width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid greenyellow;
+}
+.calculator-text {
+  width: 672px;
+  height: 120px;
+  border: 1px solid greenyellow;
+}
+.calculator-text h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+.calculator-content {
+  width: 100%;
+  height: 488px;
+  border: 1px solid greenyellow;
+}
