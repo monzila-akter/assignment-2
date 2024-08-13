@@ -28,7 +28,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid lightgreen;
 }
 .nav-title {
   color: rgb(230, 83, 60);
@@ -66,17 +65,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid greenyellow;
 }
 .banner-content {
   width: 520px;
   height: 440px;
-  border: 1px solid greenyellow;
 }
 .banner-image {
   width: 370px;
   height: 580px;
-  border: 1px solid greenyellow;
 }
 .banner-content h1 {
   color: rgb(255, 255, 255);
@@ -174,14 +170,12 @@ body {
   max-width: 85%;
   margin: 0 auto;
   margin-bottom: 100px;
-  border: 1px solid greenyellow;
 }
 .habits-text {
   width: 672px;
   height: 120px;
   margin: 0 auto;
   margin-bottom: 60px;
-  border: 1px solid greenyellow;
 }
 .habits-text h2 {
   font-size: 48px;
@@ -202,7 +196,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid greenyellow;
 }
 .content-items {
   width: 232px;
@@ -211,7 +204,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid greenyellow;
 }
 .content-items img {
   width: 180px;
@@ -233,7 +225,6 @@ body {
 /* styles run section here */
 .run {
   max-width: 85%;
-  border: 1px solid greenyellow;
   margin: 0 auto;
   margin-bottom: 100px;
   height: 372px;
@@ -246,7 +237,6 @@ body {
   width: 445px;
   height: 290px;
   margin-left: 55px;
-  border: 1px solid greenyellow;
 }
 .run-text h2 {
   font-size: 48px;
@@ -289,12 +279,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid greenyellow;
 }
 .calculator-text {
   width: 672px;
   height: 120px;
-  border: 1px solid greenyellow;
 }
 .calculator-text h2 {
   font-size: 48px;
@@ -311,14 +299,12 @@ body {
   width: 100%;
   height: 488px;
   background-color: #222222;
-  border: 1px solid greenyellow;
   display: flex;
   justify-content: space-around;
 }
 .table {
   width: 310px;
   height: 303px;
-  border: 1px solid yellowgreen;
   margin-top: 50px;
 }
 .table h3 {
@@ -355,7 +341,6 @@ body {
 .bmi {
   width: 577px;
   height: 386px;
-  border: 1px solid yellowgreen;
   margin-top: 50px;
 }
 .bmi h3 {
@@ -378,7 +363,6 @@ body {
 .input-one {
   width: 100%;
   height: 48px;
-  border: 1px solid yellowgreen;
   margin-bottom: 12px;
   display: flex;
   justify-content: space-between;
@@ -395,7 +379,6 @@ body {
 .input-two {
   width: 100%;
   height: 48px;
-  border: 1px solid yellowgreen;
   margin-bottom: 12px;
   display: flex;
   justify-content: space-between;
@@ -424,7 +407,6 @@ body {
   width: 100%;
   height: 48px;
   margin-bottom: 30px;
-  border: 1px solid yellowgreen;
 }
 .input-three select {
   width: 100%;
@@ -452,14 +434,12 @@ body {
   max-width: 85%;
   margin: 0 auto;
   margin-bottom: 100px;
-  border: 1px solid greenyellow;
 }
 .team-text {
   width: 672px;
   height: 120px;
   margin: 0 auto;
   margin-bottom: 60px;
-  border: 1px solid greenyellow;
 }
 .team-text h2 {
   font-size: 48px;
@@ -482,7 +462,6 @@ body {
   border-radius: 18px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border: 1px solid greenyellow;
 }
 .team-image {
   width: 326px;
@@ -522,7 +501,6 @@ footer {
 .fitness {
   max-width: 85%;
   height: 250px;
-  border: 1px solid greenyellow;
   margin: 0 auto;
   margin-bottom: 90px;
   display: flex;
@@ -531,7 +509,6 @@ footer {
 .part-one {
   width: 443px;
   height: 176px;
-  border: 1px solid yellowgreen;
 }
 .part-one h1 {
   color: rgb(230, 83, 60);
@@ -551,7 +528,6 @@ footer {
   width: 181px;
   height: 100%;
   margin-right: 80px;
-  border: 1px solid yellowgreen;
 }
 .part-two h3 {
   color: rgb(255, 255, 255);
@@ -576,7 +552,6 @@ footer {
 .part-three {
   width: 181px;
   height: 100%;
-  border: 1px solid yellowgreen;
 }
 .part-three h3 {
   color: rgb(255, 255, 255);
