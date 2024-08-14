@@ -482,6 +482,8 @@ body {
   border-radius: 18px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: space-around;
 }
 .team-image {
   width: 326px;
