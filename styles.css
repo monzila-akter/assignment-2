@@ -529,6 +529,8 @@ body {
   background: rgb(34, 34, 34);
   margin: 0 auto;
   margin-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 .pack h2 {
   font-size: 3rem;
