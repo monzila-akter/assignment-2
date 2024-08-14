@@ -209,6 +209,9 @@ body {
   text-align: center;
   opacity: 50%;
 }
+.media-p {
+  display: none;
+}
 .habits-content {
   width: 100%;
   height: 275px;
@@ -269,6 +272,7 @@ body {
   color: #ffffff;
   opacity: 50%;
   margin-bottom: 48px;
+  line-height: 24px;
 }
 .run-text button {
   width: 225px;
@@ -818,7 +822,7 @@ footer > p {
     display: flex;
     flex-direction: column;
     width: 352px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .banner-content {
     width: 100%;
@@ -873,5 +877,212 @@ footer > p {
     width: 30px;
     height: 30px;
     display: flex;
+  }
+  /* responsive habits section */
+  .habits {
+    width: 338px;
+    height: 1398px;
+    margin-bottom: 30px;
+  }
+  .habits-text {
+    width: 318px;
+    height: 124px;
+  }
+  .habits-text h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .paragraph {
+    display: none;
+  }
+  .media-p {
+    display: block;
+    text-align: center;
+  }
+  .habits-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-items {
+    margin-bottom: 40px;
+  }
+  /* responsive run section */
+  .run {
+    width: 353px;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .run-text {
+    width: 287px;
+    height: 264px;
+    margin: 0 auto;
+  }
+  .run-text h2 {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .run-image {
+    width: 287px;
+    height: 170px;
+    margin: 0 auto;
+  }
+  /* responsive calculator section */
+  .calculator {
+    width: 100%;
+    height: 928px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .calculator-text {
+    width: 353px;
+    height: 124px;
+    margin-bottom: 32px;
+  }
+  .calculator-text h2 {
+    font-size: 2rem;
+  }
+  .calculator-text p {
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+  .calculator-content {
+    width: 100%;
+    height: 772px;
+    display: flex;
+    flex-direction: column;
+  }
+  .table {
+    width: 353px;
+    height: 258px;
+    margin: 0 auto;
+  }
+  .table table {
+    width: 310px;
+    height: 216px;
+  }
+  .table h3 {
+    font-size: 1rem;
+    margin-bottom: 23px;
+  }
+  .bmi {
+    width: 354px;
+    height: 395px;
+    margin: 0 auto;
+  }
+  .bmi h3 {
+    font-size: 1rem;
+    margin-bottom: 14px;
+  }
+  .bmi p {
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+  .input-one {
+    width: 353px;
+    height: 48px;
+  }
+  .input-one input {
+    width: 160px;
+    height: 48px;
+  }
+  .input-two {
+    width: 353px;
+    height: 48px;
+  }
+  .input-two input {
+    width: 160px;
+    height: 48px;
+  }
+  .input-two select {
+    width: 172px;
+    height: 48px;
+  }
+  /* responsive team section */
+  .team {
+    width: 353px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .team-text {
+    width: 309px;
+    height: 124px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .team-text h2 {
+    font-size: 2rem;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+  .team-text p {
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .team-content {
+    width: 353px;
+    height: 1800px;
+    margin: 0 auto;
+    gap: 1px;
+  }
+  .team-images {
+    width: 353px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+  }
+  .team-image {
+    width: 313px;
+    height: 272px;
+  }
+  .team-image img {
+    width: 100%;
+    height: 100%;
+  }
+  /* responsive pack section */
+  .pack {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 50px;
+  }
+  .pack h2 {
+    font-size: 2rem;
+  }
+  .pack-content {
+    width: 353px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  /* responsive footer section */
+  footer {
+    width: 100%;
+    height: 1000px;
+  }
+  .fitness {
+    display: flex;
+    flex-direction: column;
+  }
+  .part-one {
+    width: 353px;
+    height: 200px;
+    margin-bottom: 40px;
+  }
+  .part-one > p > br {
+    display: none;
+  }
+  .part-two {
+    margin-bottom: 40px;
+  }
+  footer > hr {
+    margin-top: 600px;
   }
 }
