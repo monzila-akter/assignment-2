@@ -231,6 +231,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 18px;
   background-color: #222222;
 }
 .run-text {
@@ -490,11 +491,217 @@ body {
   margin-top: -40px;
   margin-left: 20px;
 }
+/* styles pack section here */
+.pack {
+  width: 100%;
+  background: rgb(34, 34, 34);
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.pack h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.pack-content {
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pack-one {
+  width: 320px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pack-one h3 {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.pack-one h4 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #ffffff;
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgb(230, 83, 60);
+  border: none;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+.pack-one p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  margin-bottom: 50px;
+}
+.offers {
+  margin-bottom: 40px;
+}
+.offers p {
+  font-size: 20px;
+  font-weight: 500px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  opacity: 80%;
+}
+.offers hr {
+  width: 270px;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+.register {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.pack-two {
+  width: 320px;
+  background: rgb(230, 83, 60);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pack-two h3 {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.pack-two h4 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(230, 83, 60);
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+.pack-two p {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 50px;
+}
+.offers-two {
+  margin-bottom: 40px;
+}
+.offers-two p {
+  font-size: 20px;
+  font-weight: 500px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+.offers-two hr {
+  width: 270px;
+  margin: 0 auto;
+  border: 1px solid rgb(255, 255, 255);
+  opacity: 40%;
+  margin-bottom: 20px;
+}
+.registers {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background: rgb(255, 255, 255);
+  border: none;
+  color: rgb(230, 83, 60);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.pack-three {
+  width: 320px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pack-three h3 {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.pack-three h4 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #ffffff;
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgb(230, 83, 60);
+  border: none;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+.pack-three p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  margin-bottom: 50px;
+}
+.offers {
+  margin-bottom: 40px;
+}
+.offers p {
+  font-size: 20px;
+  font-weight: 500px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  opacity: 80%;
+}
+.offers hr {
+  width: 270px;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+.register {
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
 /* styles footer section here */
 footer {
   width: 100%;
   height: 490px;
-  background-color: #222222;
+  background: rgb(34, 34, 34);
   padding: 0 auto;
   padding-top: 65px;
 }
