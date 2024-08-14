@@ -46,6 +46,10 @@ body {
   padding-right: 24px;
   padding-left: 5px;
 }
+.ham-burger {
+  color: rgb(255, 255, 255);
+  display: none;
+}
 .nav-links > a {
   color: rgb(255, 255, 255);
   font-size: 1.125rem;
@@ -60,6 +64,17 @@ body {
   color: rgb(255, 255, 255);
   font-size: 1.125rem;
   font-weight: 600;
+}
+.btn-primarys {
+  width: 92px;
+  height: 38px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  font-weight: 600;
+  display: none;
 }
 /* styles banner section here */
 .banner {
@@ -781,4 +796,73 @@ footer > p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.25rem;
   text-align: center;
+}
+/* Responsive Website in mobile */
+@media screen and (max-width: 576px) {
+  .nav-links {
+    display: none;
+  }
+  .ham-burger {
+    display: block;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    width: 352px;
+    margin-bottom: 10px;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 2.25rem;
+    margin-bottom: 28px;
+  }
+  .btn {
+    width: 352px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-primary {
+    display: none;
+  }
+  .btn-primarys {
+    width: 169px;
+    height: 54px;
+    display: block;
+  }
+  .btn-secondary {
+    width: 169px;
+    height: 54px;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .card-one {
+    width: 145px;
+    height: 74px;
+    margin-left: 194px;
+  }
+  .card-one h3 {
+    font-size: 1.875rem;
+  }
+  .card-one p {
+    font-size: 0.625rem;
+  }
+  .card-two {
+    width: 155px;
+    height: 72px;
+    margin-left: 12px;
+  }
+  .card-two h3 {
+    font-size: 1.125rem;
+  }
+  .card-two p {
+    font-size: 0.75rem;
+  }
+  .circle {
+    width: 30px;
+    height: 30px;
+    display: flex;
+  }
 }
