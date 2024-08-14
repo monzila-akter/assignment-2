@@ -278,6 +278,7 @@ body {
   width: 225px;
   height: 55px;
   border-radius: 42px;
+  border: none;
   background-color: #e6533c;
   font-size: 1.125rem;
   font-weight: 600px;
