@@ -206,6 +206,8 @@ body {
 .habits-text p {
   font-size: 0.875rem;
   color: #ffffff;
+  line-height: 24px;
+  letter-spacing: 0.3px;
   text-align: center;
   opacity: 50%;
 }
@@ -241,6 +243,8 @@ body {
 .content-items p {
   font-size: 0.875rem;
   color: #ffffff;
+  line-height: 18px;
+  letter-spacing: 0.3px;
   text-align: center;
   opacity: 50%;
 }
@@ -318,6 +322,8 @@ body {
 .calculator-text p {
   font-size: 0.875rem;
   color: #ffffff;
+  line-height: 24px;
+  letter-spacing: 0.3px;
   opacity: 50%;
 }
 .calculator-content {
@@ -476,6 +482,8 @@ body {
 .team-text p {
   font-size: 0.875rem;
   color: #ffffff;
+  line-height: 24px;
+  letter-spacing: 0.3px;
   opacity: 50%;
   text-align: center;
 }
@@ -578,6 +586,8 @@ body {
 .pack-one p {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.6);
+  line-height: 24px;
+  letter-spacing: 0.3px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -640,6 +650,8 @@ body {
 .pack-two p {
   font-size: 1rem;
   color: rgb(255, 255, 255);
+  line-height: 24px;
+  letter-spacing: 0.3px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -702,6 +714,8 @@ body {
 .pack-three p {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.6);
+  line-height: 24px;
+  letter-spacing: 0.3px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -764,6 +778,7 @@ footer {
   font-family: Inter;
   font-size: 0.875rem;
   line-height: 24px;
+  letter-spacing: 0.3px;
   text-align: left;
 }
 .part-two {
@@ -815,17 +830,22 @@ footer > p {
 }
 /* Responsive Website in mobile */
 @media screen and (max-width: 576px) {
+  /* responsive nav bar */
+  nav {
+    width: 353px;
+  }
   .nav-links {
     display: none;
   }
   .ham-burger {
     display: block;
   }
+  /* responsive banner section */
   .banner {
     display: flex;
     flex-direction: column;
     width: 352px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .banner-content {
     width: 100%;
@@ -908,6 +928,9 @@ footer > p {
   }
   .content-items {
     margin-bottom: 40px;
+  }
+  .content-items h4 {
+    margin-bottom: 6px;
   }
   /* responsive run section */
   .run {
