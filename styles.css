@@ -1150,3 +1150,8 @@ footer > p {
     max-width: 65%;
   }
 }
+@media screen and (min-width: 1440px) {
+  .team-content {
+    width: 87%;
+  }
+}
