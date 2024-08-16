@@ -333,6 +333,11 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.weight-calculate {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
 .table {
   width: 310px;
   height: 303px;
@@ -489,7 +494,8 @@ body {
 }
 .team-content {
   width: 100%;
-  height: 605px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0 auto;
   background-color: #222222;
   border-radius: 18px;
@@ -828,7 +834,7 @@ footer > p {
   font-size: 1.25rem;
   text-align: center;
 }
-/* Responsive Website in mobile */
+/* Responsive Website for mobile */
 @media screen and (max-width: 576px) {
   /* responsive nav bar */
   nav {
@@ -981,6 +987,12 @@ footer > p {
     display: flex;
     flex-direction: column;
   }
+  .weight-calculate {
+    width: 100%;
+    height: 772px;
+    display: flex;
+    flex-direction: column;
+  }
   .table {
     width: 353px;
     height: 258px;
@@ -1110,5 +1122,31 @@ footer > p {
   }
   footer > hr {
     margin-top: 600px;
+  }
+}
+/* responsive website for desktop */
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+  .habits-content {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .run {
+    max-width: 65%;
+  }
+  .weight-calculate {
+    max-width: 65%;
+    justify-content: space-between;
+  }
+  .team-content {
+    max-width: 65%;
+  }
+  .pack-content {
+    max-width: 65%;
+  }
+  .fitness {
+    max-width: 65%;
+  }
+  footer hr {
+    max-width: 65%;
   }
 }
